@@ -1,8 +1,6 @@
 ---
-title: Example Title
-draft: false
-tags:
-  - example-tag
+title: Welcome!
+unlisted: "true"
 ---
- 
-The rest of your content lives here. You can use **Markdown** here :)
+
+The rest of your welcome lives here. You can use **Markdown** here :)
