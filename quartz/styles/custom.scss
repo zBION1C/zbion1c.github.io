@@ -31,19 +31,3 @@
   --font-interface: "Maple Mono NF", sans-serif;
   --font-text-override: "Maple Mono NF", monospace;
 }
-
-/* 
-  quartz-themes targets specific Markdown preview classes. 
-  We target those directly with !important to ensure Maple Mono NF wins.
-*/
-body, 
-article, 
-p, 
-span, 
-li, 
-a, 
-.markdown-preview-view, 
-.markdown-rendered,
-.cm-scroller {
-  font-family: "Maple Mono NF", monospace !important;
-}
