@@ -15,9 +15,9 @@ configuration:
   theme:
     fontOrigin: local
     typography:
-      header: Maple Mono NF
-      body: Maple Mono NF
-      code: Fira Code
+      header: "Maple Mono NF"
+      body: "Maple Mono NF"
+      code: "Fira Code"
     colors:
       lightMode:
         light: "#faf8f8"
@@ -109,11 +109,10 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
-  - source: github:quartz-community/fonts
-    enabled: true
     options:
-      header: "Maple Mono NF"
+      fontOrigin: local
       body: "Maple Mono NF"
+      header: "Maple Mono NF"
       code: "Fira Code"
   - source: github:quartz-community/remove-draft
     enabled: true
@@ -269,7 +268,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: default
+      theme: agate
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:

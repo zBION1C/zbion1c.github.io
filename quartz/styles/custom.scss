@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Maple Mono NF";
   src: url("/static/fonts/MapleMono-NF-Regular.ttf") format("truetype");
-  font-weight: 100 900;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -19,4 +19,31 @@
   src: url("/static/fonts/FiraCode-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
+}
+
+:root {
+  /* Core Quartz layout variables */
+  --bodyFont: "Maple Mono NF", monospace;
+
+  /* Obsidian & quartz-themes variables */
+  --font-text: "Maple Mono NF", monospace;
+  --font-body: "Maple Mono NF", monospace;
+  --font-interface: "Maple Mono NF", sans-serif;
+  --font-text-override: "Maple Mono NF", monospace;
+}
+
+/* 
+  quartz-themes targets specific Markdown preview classes. 
+  We target those directly with !important to ensure Maple Mono NF wins.
+*/
+body, 
+article, 
+p, 
+span, 
+li, 
+a, 
+.markdown-preview-view, 
+.markdown-rendered,
+.cm-scroller {
+  font-family: "Maple Mono NF", monospace !important;
 }
