@@ -2,5 +2,5 @@
 title: Welcome!
 unlisted: "true"
 ---
-
-The rest of your welcome lives here. You can use **Markdown** here :)
+Hi, welcome to my digital garden 🌳.
+If you want, you can read a little [[about|about me]].
