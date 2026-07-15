@@ -31,3 +31,11 @@
   --font-interface: "Maple Mono NF", sans-serif;
   --font-text-override: "Maple Mono NF", monospace;
 }
+
+/* Target the container precisely using its parent layout structure */
+.graph-outer {
+  border: 1px solid var(--highlight);
+  border-radius: 8px; /* Smooths out the corners */
+  overflow: hidden;   /* CRITICAL: Prevents the canvas from spilling over the border */
+  box-sizing: border-box; 
+}
