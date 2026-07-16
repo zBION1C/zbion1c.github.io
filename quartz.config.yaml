@@ -15,9 +15,9 @@ configuration:
   theme:
     fontOrigin: local
     typography:
-      header: "Maple Mono NF"
-      body: "Maple Mono NF"
-      code: "Fira Code"
+      header: Maple Mono NF
+      body: Maple Mono NF
+      code: Fira Code
     colors:
       lightMode:
         light: "#faf8f8"
@@ -81,7 +81,7 @@ plugins:
     order: 60
     options:
       maxDepth: 2
-    layout: 
+    layout:
       position: right
       priority: 30
   - source: github:quartz-community/crawl-links
@@ -113,9 +113,9 @@ plugins:
     enabled: true
     options:
       fontOrigin: local
-      body: "Maple Mono NF"
-      header: "Maple Mono NF"
-      code: "Fira Code"
+      body: Maple Mono NF
+      header: Maple Mono NF
+      code: Fira Code
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
