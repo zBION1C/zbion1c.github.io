@@ -20,10 +20,8 @@ printName({first: "Bob"});
 printName({first: "Alice", last: "Allison" });
 ```
 One important thing you have to remember is that if you try to access a property that does not exist, you'll get the value `undefined`. For this reason, always check for undefined properties!
-
 # Combining types
 Typescript enables the definition of new types combining existing ones.
-
 ## Union type
 A union type is a type formed from two or more other types, representing values that may be any one of those types. We refer to each of these types as the union’s members.
 ```typescript

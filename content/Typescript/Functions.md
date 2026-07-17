@@ -1,6 +1,7 @@
 ---
 title: Functions
 ---
+
 # Functions basics
 Functions are defined like this in typescript:
 ```typescript

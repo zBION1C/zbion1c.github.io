@@ -2,7 +2,6 @@
 title: Basics
 ---
 Typescript is simply a typed version of javascript. This note serve as a basic introduction to the esoteric typescript/javascript syntax and as a map to more complex concepts.
-
 # Variable declaration
 In javascript there are three different ways to declare a variable: `var`, `let` and `const`.
 
@@ -16,7 +15,6 @@ function f(): void {
 }
 ```
 The `let` keyword is an improvement of `var`. It solves the problem of unwanted re-declaration present when using `var`. `let` is blocked scoped and cannot be **re-declared** in the same block.
-
 ```typescript
 let x: number = 10;
 
