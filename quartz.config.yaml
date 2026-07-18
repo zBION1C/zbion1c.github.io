@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: My Digital Garden
+  pageTitle: Quartz 5
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -78,9 +78,7 @@ plugins:
     order: 40
   - source: github:quartz-community/table-of-contents
     enabled: true
-    order: 60
-    options:
-      maxDepth: 2
+    order: 50
     layout:
       position: right
       priority: 30
@@ -208,7 +206,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 35
@@ -264,6 +262,13 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source:
+      name: quartz-themes
+      repo: github:saberzero1/quartz-themes
+      subdir: plugin
+    enabled: false
+    options:
+      theme: default
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
