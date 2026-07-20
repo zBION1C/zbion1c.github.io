@@ -12,10 +12,6 @@ ExternalPlugin.Explorer({
   },
 })
 
-ExternalPlugin.TableOfContents({
-  layout:  "modern"
-})
-
 const config = await loadQuartzConfig()
 export default config
 export const layout = await loadQuartzLayout()
