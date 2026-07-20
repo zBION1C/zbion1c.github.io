@@ -2,7 +2,6 @@ import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/conf
 import * as ExternalPlugin from "./.quartz/plugins"
 import { FileTrieNode } from "./quartz/util/fileTrie"
 
-// Advanced: pass callback functions that can't be expressed in YAML
 ExternalPlugin.Explorer({
   mapFn: (node: FileTrieNode) => {
     // dont change name of root node
@@ -11,6 +10,10 @@ ExternalPlugin.Explorer({
         node.displayName = "⊹ " + node.displayName
     }
   },
+})
+
+ExternalPlugin.TableOfContents({
+  layout:  "modern"
 })
 
 const config = await loadQuartzConfig()
